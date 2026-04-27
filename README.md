@@ -39,7 +39,7 @@
 
 ### 1. Clone & install
 ```bash
-git clone https://github.com/YOUR_USERNAME/lagos-tech-meets.git
+git clone https://github.com/Webghost01-NG/lagos-tech-meets
 cd lagos-tech-meets
 npm install
 ```
@@ -96,24 +96,6 @@ src/
 
 ---
 
-## ☁️ Deploy to Vercel
-
-### Option A — CLI (fastest)
-```bash
-npm install -g vercel
-vercel
-```
-Add all `VITE_FIREBASE_*` env vars when prompted.
-
-### Option B — Dashboard
-1. Push to GitHub
-2. Go to [vercel.com](https://vercel.com) → New Project → Import repo
-3. Add environment variables (all 6 `VITE_FIREBASE_*` keys)
-4. Deploy 🚀
-
-> `vercel.json` is already included to handle SPA routing (no 404 on refresh).
-
----
 
 ## 🔥 Firestore Security Rules
 
@@ -155,11 +137,6 @@ When creating an event, you can optionally add latitude and longitude for the ma
 
 ---
 
-## 👨‍💻 Built By
-
-Built with 🔥 as part of **Web3Bridge Cohort XIV** Final Project Week.
-
----
 
 ## 📄 License
 
